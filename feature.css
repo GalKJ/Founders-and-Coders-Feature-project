@@ -1,11 +1,26 @@
+:root {
+    --letter-spacing: 0.1rem;
+    /* The default text size in browsers is 16px. So, the default size of 1rem is 16px. */
+    --fs: 1rem;
+    }
+
+html {
+    font-size: var(--fs);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: var(--letter-spacing);
+  }
+  
 body {
     min-height: 100vh;
     display: grid;
     align-items: center;
     justify-items: center;
     background: white;
-    /* background-size: cover; */
   }
+
+h1 {
+    margin: 0;
+}
 
   canvas {
     border: 20px solid;
