@@ -12,4 +12,4 @@ I looked into vanilla javascript 3d animations such as this one `https://www.you
 
 This `https://codepen.io/franksLaboratory/pens/popular` also caught my eye but again i felt that to grasp the basics of the Canvas API I should start with the Wes Bos canvas tutorial since I had access to Wes's course github repo and his instruction is very clear and detailed. 
 
-### Building 
+
