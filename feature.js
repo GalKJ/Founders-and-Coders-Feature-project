@@ -6,6 +6,9 @@ const ctx = canvas.getContext('2d');
 const shakeButton = document.querySelector('.shake');
 const MOVE_AMOUNT = 15;
 
+// Select buttons on page to draw
+const leftButton = document.querySelector('#left');
+
 // Setup our canvas for drawing
 // Make two variables, width and height using destructuing, from the same named properties on our canvas object.
 const { width, height } = canvas;
