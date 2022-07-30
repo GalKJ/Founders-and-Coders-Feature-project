@@ -92,3 +92,6 @@ function clearCanvas() {
 // Listen for arrow keys
 window.addEventListener('keydown', handleKey);
 shakeButton.addEventListener('click', clearCanvas);
+
+// Listen for draw buttons
+leftButton.addEventListener
