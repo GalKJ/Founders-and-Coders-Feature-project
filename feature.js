@@ -10,7 +10,7 @@ const MOVE_AMOUNT = 15;
 const leftButton = document.querySelector('#left');
 
 // Setup our canvas for drawing
-// Make two variables, width and height using destructuing, from the same named properties on our canvas object.
+// Make two variables, width and height using destructuring, from the same named properties on our canvas object.
 const { width, height } = canvas;
 
 // Create random x and y starting points on the canvas
