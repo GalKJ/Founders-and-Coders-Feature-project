@@ -24,6 +24,6 @@ Due to the way that I built this feature by learning it piece by piece I've only
 
 ### Issues
 
-- add touch control for mobile such as button icons with `addEventListener('touchstart')`
+- add touch control for mobile such as button icons with `addEventListener('touchstart')` `addEventListener('touchmove')` `addEventListener('touchend')`
 
-Using a switch statement
+- add switch statement for touch direction buttons
