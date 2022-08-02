@@ -22,11 +22,19 @@ Although I used a tutorial to expose me to the basic concepts of canvas and give
 
 I made some changes to the code so as to explore canvas and see what I could do with it.
 
-By declaring
+By declaring `@type {HTMLCanvasElement}` at the top of my feature.js I was able to gain access to the auto complete feature for properties and methods of HTMLCanvasElement.
 
-`@type {HTMLCanvasElement}`
+`ctx.lineJoin = 'bevel';`
+`ctx.lineCap = 'square';`
+`ctx.lineWidth = MOVE_AMOUNT;`
 
-at the top of my feature.js I was able to gain access to the auto complete feature for properties and methods of HTMLCanvasElement.
+`let hue = 0;`
+`let shadowHue = 0;`
+`ctx.strokeStyle =` `hsl(${hue}, 100%, 50%);`
+`ctx.shadowColor =` `hsl(${shadowHue}, 100%, 50%);`
+`ctx.shadowBlur = 15;`
+
+Playing around with the Canvas property values above and adding in some great looking `ctx.shadowBlur` with a `ctx.shadowColor` of `hsl(0, 100%, 50%)` which increments by `+ 10` every `keydown` and also upping the `ctx.shadowBlur` to a value of `75`.
 
 Inside of the _Clear/shake_ function I wanted to make sure the drawing started again at a random point
 

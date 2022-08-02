@@ -8,6 +8,9 @@ const MOVE_AMOUNT = 15;
 
 // Select buttons on page to draw
 const leftButton = document.querySelector('#left');
+const upButton = document.querySelector('#up');
+const rightButton = document.querySelector('#right');
+const downButton = document.querySelector('#down');
 
 // Setup our canvas for drawing
 // Make two variables, width and height using destructuring, from the same named properties on our canvas object.
@@ -25,7 +28,7 @@ let hue = 0;
 let shadowHue = 0;
 ctx.strokeStyle = `hsl(${hue}, 100%, 50%)`;
 ctx.shadowColor = `hsl(${shadowHue}, 100%, 50%)`;
-ctx.shadowBlur = 15;
+ctx.shadowBlur = 75;
 
 ctx.beginPath(); // start the drawing
 ctx.moveTo(x, y);
