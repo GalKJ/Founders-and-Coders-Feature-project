@@ -18,6 +18,16 @@ When building the etch-a-sketch initially I made sure I paused to understand exa
 
 Although I used a tutorial to expose me to the basic concepts of canvas and give me a clear view of how many of the canvas methods intersect with each other I made sure I refactored the code in order to grasp a good understanding and realise my own goals. This is a starting point in an open ended project after all and a jump off point into further learning rather than an open and close case.
 
+#### Refactoring
+
+I made some changes to the code so as to explore canvas and see what I could do with it.
+
+Inside of the _Clear/shake_ function I wanted to make sure the drawing started again at a random point
+`ctx.beginPath(); // start the drawing again at a random point in state`
+`x = Math.floor(Math.random() * width);`
+`y = Math.floor(Math.random() * height);`
+`ctx.moveTo(x, y);`
+
 ### Debugging
 
 Due to the way that I built this feature by learning it piece by piece I've only just started to hit debugging issues. Below are some of the issues I'm working on currently.
