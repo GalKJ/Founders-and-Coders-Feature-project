@@ -87,9 +87,12 @@ function clearCanvas() {
     { once: true }
   );
   ctx.beginPath(); // start the drawing again at a random point in state
-    x = Math.floor(Math.random() * width);
-    y = Math.floor(Math.random() * height);
-    ctx.moveTo(x, y);
+  x = Math.floor(Math.random() * width);
+  y = Math.floor(Math.random() * height);
+  ctx.moveTo(x, y);
+  ctx.lineTo(x, y);
+  ctx.stroke();
+    
 }
 
 // Listen for arrow keys
