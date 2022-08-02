@@ -22,7 +22,14 @@ Although I used a tutorial to expose me to the basic concepts of canvas and give
 
 I made some changes to the code so as to explore canvas and see what I could do with it.
 
+By declaring
+
+`@type {HTMLCanvasElement}`
+
+at the top of my feature.js I was able to gain access to the auto complete feature for properties and methods of HTMLCanvasElement.
+
 Inside of the _Clear/shake_ function I wanted to make sure the drawing started again at a random point
+
 `ctx.beginPath(); // start the drawing again at a random point in state`
 `x = Math.floor(Math.random() * width);`
 `y = Math.floor(Math.random() * height);`
@@ -34,6 +41,9 @@ Due to the way that I built this feature by learning it piece by piece I've only
 
 ### Issues
 
-- add touch control for mobile such as button icons with `addEventListener('touchstart')` `addEventListener('touchmove')` `addEventListener('touchend')`
+- add touch control for mobile such as button icons with
+  `addEventListener('touchstart')`
+  `addEventListener('touchmove')`
+  `addEventListener('touchend')`
 
 - add switch statement for touch direction buttons
