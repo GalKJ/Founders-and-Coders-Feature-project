@@ -45,6 +45,8 @@ Inside of the _Clear/shake_ function I wanted to make sure the drawing started a
 `ctx.lineTo(x, y);`
 `ctx.stroke();`
 
+Add `eventListener('touchstart')` to left touch button. next job is to add to all buttons and add logic which enables movement of stroke on touch devices.
+
 ### Debugging
 
 Due to the way that I built this feature by learning it piece by piece I've only just started to hit debugging issues. Below are some of the issues I'm working on currently.

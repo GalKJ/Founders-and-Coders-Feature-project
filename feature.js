@@ -99,5 +99,7 @@ function clearCanvas() {
 window.addEventListener('keydown', handleKey);
 shakeButton.addEventListener('click', clearCanvas);
 
-// Listen for draw buttons
-leftButton.addEventListener
+// Listen for touch draw buttons
+leftButton.addEventListener('touchstart', e => {
+  console.log(e);
+});
