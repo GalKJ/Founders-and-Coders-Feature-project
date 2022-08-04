@@ -34,7 +34,7 @@ By declaring `@type {HTMLCanvasElement}` at the top of my feature.js I was able 
 `ctx.shadowColor =` `hsl(${shadowHue}, 100%, 50%);`
 `ctx.shadowBlur = 15;`
 
-Playing around with the Canvas property values above and adding in some great looking `ctx.shadowBlur` with a `ctx.shadowColor` of `hsl(0, 100%, 50%)` which increments by `+ 10` every `keydown` and also upping the `ctx.shadowBlur` to a value of `75`.
+Playing around with the Canvas property values above and adding in some great looking `ctx.shadowBlur` with a `ctx.shadowColor` of `hsl(0, 100%, 50%)` which increments by `shadowHue + shadowHue + 10` every `keydown` and also upping the `ctx.shadowBlur` to a value of `75`.
 
 Inside of the _Clear/shake_ function I wanted to make sure the drawing started again at a random point and that the first stroke was visible to the user after the canvas had been cleared.
 
